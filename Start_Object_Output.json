@@ -1,0 +1,116 @@
+{
+    "data": {
+      "script": {
+        "self": {
+          "@source": {
+            "instanceKey": "/org/lab1/instance/construct/script/reportScript/reportScript.json",
+            "typeKey": "/sys/type/construct/script/reportScript.jtype",
+            "construct": "script",
+            "type": "reportScript",
+            "instanceName": "reportScript",
+            "instanceId": "5c295182-7df9-4403-8f17-829ded5fa144",
+            "organizationId": "32904472-16b6-47e6-b776-f511c6070a01"
+          },
+          "@id": "5c295182-7df9-4403-8f17-829ded5fa144",
+          "@meta": {
+            "path": "/org/instance/construct/script/reportScript/reportScript.json",
+            "location": "/org/lab1/instance/construct/script/reportScript/reportScript.json",
+            "container": "C:/Users/oleg.gratwick/GluLabWorkspace/reportScript/src/"
+          }
+        }
+      },
+      "node": {
+        "iosRouter": {
+          "ioscsr": {
+            "@source": {
+              "instanceKey": "/org/lab1/instance/construct/node/iosRouter/ioscsr.json",
+              "typeKey": "/sys/type/construct/node/iosRouter.jtype",
+              "construct": "node",
+              "type": "iosRouter",
+              "instanceName": "ioscsr",
+              "instanceId": "493bb572-689f-4c74-888e-1fc7f274def5",
+              "organizationId": "32904472-16b6-47e6-b776-f511c6070a01"
+            },
+            "@id": "493bb572-689f-4c74-888e-1fc7f274def5",
+            "site": null,
+            "configState": "managed",
+            "entryConnection": {
+              "ip": "10.1.10.7",
+              "proxyList": [],
+              "userName": "gluwareadm",
+              "password": "****",
+              "enablePassword": "****",
+              "type": "ssh",
+              "port": 22,
+              "vendor": "auto",
+              "retryCnt": 2,
+              "retryWaitSec": 0
+            },
+            "options": {
+              "connectionEnabled": true,
+              "previewMode": false,
+              "forcedAttachedStorage": false
+            },
+            "wanRouter": {
+              "enabled": true
+            },
+            "associations": {
+              "assembly": {
+                "@source": {
+                  "instanceKey": "/org/lab1/instance/construct/domain/iosRouterAssembly/ioscsrAssembly.json",
+                  "typeKey": "/sys/type/construct/domain/iosRouterAssembly.jtype",
+                  "construct": "domain",
+                  "type": "iosRouterAssembly",
+                  "instanceName": "ioscsrAssembly",
+                  "instanceId": "9bf8a6ea-6133-4ee8-a1ba-ac3b508da001",
+                  "organizationId": "32904472-16b6-47e6-b776-f511c6070a01"
+                },
+                "@id": "9bf8a6ea-6133-4ee8-a1ba-ac3b508da001",
+                "domains": {
+                  "modules": {}
+                },
+                "interfaces": {
+                  "portMap": null,
+                  "ipNumbering": null
+                },
+                "agents": {
+                  "watchdog": {
+                    "policy": null
+                  }
+                },
+                "@meta": {
+                  "path": "/org/instance/construct/domain/iosRouterAssembly/ioscsrAssembly.json",
+                  "location": "/org/lab1/instance/construct/domain/iosRouterAssembly/ioscsrAssembly.json",
+                  "container": "C:/Users/oleg.gratwick/GluLabWorkspace/reportScript/src/"
+                },
+                "@jobType": "configModeling"
+              },
+              "provider": "local"
+            },
+            "persona": {
+              "type": "none"
+            },
+            "hardware": {
+              "vendor": "auto",
+              "expectedSerialNumber": "auto"
+            },
+            "provisioning": {
+              "type": "advanced"
+            },
+            "iosRouter": {
+              "enabled": true
+            },
+            "@meta": {
+              "path": "/org/instance/construct/node/iosRouter/ioscsr.json",
+              "location": "/org/lab1/instance/construct/node/iosRouter/ioscsr.json",
+              "container": "C:/Users/oleg.gratwick/GluLabWorkspace/reportScript/src/"
+            }
+          }
+        }
+      }
+    },
+    "executionOptions": {
+      "skipCheckpoint": false
+    },
+    "control": false
+  }
